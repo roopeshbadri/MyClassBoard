@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <title>: Iconic School :</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style media="screen">
+    .card{
+      width:50%;
+    }
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+    padding: 6px;
+    border: 1px solid #cbcbcb;
+    min-width: 38px;
+    text-align: center;
+    border-radius: 3px;
+}
+input {
+    overflow: visible;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+button, input {
+    overflow: visible;
+    width: 100%;
+}
+.card-body {
+  border-left: 2px solid hsla(43,100%,52%,1);
+}
+body{
+  background-color:hsla(0,0%,100%,1);
+  overflow-x:none;
+}
+@media screen and (max-width: 820px) {
+  .card  {
+    width: 100%;
+
+  }
+.imgg{
+  max-width:200px;
+}
+.mt-5, .my-5 {
+   margin-top: 0rem!important;
+}
+}
+.imgg{
+  border-radius:20px;
+  width:250px;
+}
+@media screen and (width: 1024px) {
+  .card  {
+    width: 70%;
+
+  }
+}
+  </style>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header mt-5">
+        <h3 align="center ">LOGIN</h3>
+      </div>
+      <div class="row backprint mt-3" id="imgg">
+        <div class="col-md-6 col-lg-6">
+           <div class="logo-holder text-center mt-5" >
+             <img src="  https://cdnimages.myclassboard.com/loginpages/Iconic_assets/Iconic-School-Logo.jpg" alt=""  class="imgg">
+           </div>
+        </div>
+        <div class="col-md-6 col-xs-12 col-sm-12  boxform boxpad" >
+            <div class="card my-4 ">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div class="form-group">
+                            <label for="usr" class="text-dark mb-2 mt-3">Username (Student/Id)</label>
+                            <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                            <input class="input-field" type="text" placeholder="Username" name="email" id="usr">
+                        </div>
+                    </div>
+                    
+                        <div class="form-group ">
+                            <label for="pwd" class="text-dark mb-2">Password</label>
+                            <div class="input-container">
+                            <i class="fa fa-lock icon"></i>
+                            <input class="input-field" type="Password" placeholder="Password" name="email" id="pwd">
+                            </div>                
+                        </div>
+
+                <button type="submit" class="btn  btn-block text-light mt-1" style="background-color:hsla(43,100%,52%,1);">Login</button>
+               <p style="text-align:center;padding-top: 10px;">
+                <label class="lblloginwith lext-primary">Or Login with &nbsp;</label>
+                <a href="#" onclick="Loginwithgamail();" id="loginText" title="login with google">
+                   <img src="https://cdndatastatic.myclassboard.com/Images/googlelogin.png" width="16" height="16">
+               </a>
+                   </p>
+                   <p style="font-size:12px; display: inline;">
+                     <a id="HyperLink1" href="/Signin/Forgot_password" style="position: static; color: blue;">Forgot your Password?</a>
+                   </p>
+                   <p style="font-size:12px;display: inline;" class="justify-content-end float-right">
+                     <a id="HyperLink2" href="/Signin/Forgot_username" style="position: static; color:blue;">Forgot User Name?</a>
+                   </p>
+               <div class="footer-card mt-2">
+                   <p class="lbltrems " style="color:#173d69;font-size:12px;">
+                       By Logging in, you agree to MyClassboard's
+                    <a id="HyperLink2" href="https://www.myclassboard.com/terms/" target="_blank" style="color:blue;    text-decoration: underline;">
+                       Conditions of Use
+                     </a> and
+                     <a id="HyperLink2" href="https://www.myclassboard.com/privacy/" target="_blank" style="color:blue;    text-decoration: underline;">
+                         Privacy Policy</a>.
+                     </p>
+               </div>
+
+
+</div>
+           </div>
+             </div>
+         </div>
+
+      </div>
+
+
+    </div>
+    <div class="footer" style="margin-bottom:0;color:white;background-color:#012060">
+     <div class=" text-center  " >
+
+       <p class="mt-3 mb-0" style="color:white;font-size: 11px;padding-top:10px;padding-bottom:20px">© Copyrights 2022 Iconic International Schools, All rights reserved &nbsp;Powered by &nbsp;<a class="text-white" href="https://www.myclassboard.com/" target="_blank"><u>MyClassboard</u></a> </p>
+    </div>
+
+    </div>
+
+  </body>
+</html>
